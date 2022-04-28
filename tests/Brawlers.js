@@ -1,4 +1,4 @@
-const {BrawlAPI} = require("../dist/main")
+const {BrawlAPI} = require("brawl-api")
 
 const Client = new BrawlAPI();
 
