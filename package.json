@@ -1,0 +1,22 @@
+{
+  "name": "brawl-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "test": "echo \\\"Error: no tests specified\\\" && exit 1",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Ashp116",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15",
+    "typescipt": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1"
+  }
+}
