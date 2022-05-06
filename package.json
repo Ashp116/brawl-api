@@ -1,7 +1,6 @@
 {
   "name": "brawl-api",
   "version": "1.2.2",
-  "description": "",
   "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "scripts": {
@@ -28,5 +27,16 @@
   },
   "devDependencies": {
     "@types/node-fetch": "^2.6.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashp116/brawl-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ashp116/brawl-api/issues"
+  },
+  "homepage": "https://github.com/Ashp116/brawl-api#readme"
 }
