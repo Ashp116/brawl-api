@@ -15,3 +15,5 @@ export class BrawlAPI {
     Icons:Icons
     Maps:Maps
 }
+
+

@@ -3,7 +3,7 @@ const url = global.baseURL;
 
 export class Brawlers {
 
-    getAllBrawlers = async (): Promise<[]> => {
+    getAllBrawlers = async (): Promise<Brawler[]> => {
         let data = await fetch(url + "/brawlers").then(res => res.json()).catch(err => console.error(err));
 
         return data["list"];

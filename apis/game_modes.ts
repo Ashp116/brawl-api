@@ -3,7 +3,7 @@ const url = global.baseURL;
 
 export class GameModes {
 
-    getGameModes = async (): Promise<[]> => {
+    getGameModes = async (): Promise<GameMode[]> => {
         let data = await fetch(url + "/gamemodes").then(res => res.json()).catch(err => console.error(err));
 
         return data["list"];

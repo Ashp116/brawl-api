@@ -3,7 +3,7 @@ const url = global.baseURL;
 
 export class Maps {
 
-    getAllMaps = async (): Promise<[]> => {
+    getAllMaps = async (): Promise<Map[]> => {
         let data = await fetch(url + "/maps").then(res => res.json()).catch(err => console.error(err));
 
         return data["list"];

@@ -9,13 +9,13 @@ export class Icons {
         return data;
     }
 
-    getPlayerIcons = async ():Promise<[]> => {
+    getPlayerIcons = async ():Promise<Icon[]> => {
         let data = await fetch(url + "/icons").then(res => res.json()).catch(err => console.error(err));
         // @ts-ignore
         return data["player"];
     }
 
-    getClubIcons = async ():Promise<[]> => {
+    getClubIcons = async ():Promise<Icon[]> => {
         let data = await fetch(url + "/icons").then(res => res.json()).catch(err => console.error(err));
         // @ts-ignore
         return data["club"];
@@ -36,8 +36,8 @@ export class Icons {
 }
 
 export type IconsResponse = {
-    player: []
-    club: []
+    player: Icon[]
+    club: Icon[]
 }
 
 export type Icon = {
