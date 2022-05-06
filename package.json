@@ -1,6 +1,6 @@
 {
   "name": "brawl-api",
-  "version": "1.0.7",
+  "version": "1.2.0",
   "description": "",
   "main": "./dist/main.js",
   "types": "./dist/main.d.ts",
@@ -21,7 +21,7 @@
   "author": "Ashp116",
   "license": "MIT",
   "dependencies": {
-    "brawl-api": "^1.0.5",
+    "brawl-api": "^1.2.0",
     "node-fetch": "^2.6.7",
     "nodemon": "^2.0.15",
     "typescipt": "^1.0.0"

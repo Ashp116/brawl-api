@@ -1,3 +1,4 @@
+import {Icon, IconsResponse} from "../dist/main";
 import fetch from "node-fetch";
 const url = global.baseURL;
 
@@ -35,14 +36,3 @@ export class Icons {
 
 }
 
-export type IconsResponse = {
-    player: Icon[]
-    club: Icon[]
-}
-
-export type Icon = {
-    id: Number,
-    imageUrl: string,
-    imageUrl2: string
-    brawler: Number | null
-}

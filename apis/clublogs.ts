@@ -1,3 +1,4 @@
+import {Club} from "../dist/main";
 import fetch from "node-fetch";
 const url = global.baseURL;
 
@@ -8,32 +9,4 @@ export class ClubLogs {
         return data;
     }
 
-}
-
-export type Club = {
-    "club": {
-        "tag": string,
-        "name": string,
-        "trophies": Number,
-        "requiredTrophies": Number,
-        "memberCount": Number,
-        "description": string,
-        "updated": {
-            "data": Number,
-            "history": Number
-        }
-    },
-    "history": [
-        {
-            "type": string,
-            "data": {
-                "joined": boolean,
-                "player": {
-                    "tag": string,
-                    "name": string
-                }
-            },
-            "timestamp": Number
-        }
-    ]
 }
