@@ -1,5 +1,7 @@
 node_modules
 .idea
+.gitignore
+tests
 # ignore the .ts files
 *.ts
 
