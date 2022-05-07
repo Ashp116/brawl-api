@@ -266,9 +266,9 @@ export class ClubLogs {
     getClub(id: string | Number):Promise<Club>
 }
 export class Events {
-    getAllEvents: Promise<BrawnEvents[]>
-    getActiveEvents: Promise<BrawnEvent[]>
-    getUpcomingEvents : Promise<BrawnEvent[]>
+    getAllEvents(): Promise<BrawnEvents[]>
+    getActiveEvents(): Promise<BrawnEvent[]>
+    getUpcomingEvents(): Promise<BrawnEvent[]>
     getEventsFromTrophyRange(range: "0-299" | "300-599" | "600+"): Promise<BrawnEvents[]>
 }
 export class GameModes {
